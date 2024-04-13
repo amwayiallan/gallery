@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.GalleryPluginFunctionalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-11T21:07:56" hostname="allan-Surface-Laptop" time="6.472">
+  <properties/>
+  <testcase name="canRunTask()" classname="org.example.GalleryPluginFunctionalTest" time="6.472"/>
+  <system-out><![CDATA[
+> Task :greeting
+Hello from plugin 'org.example.greeting'
+
+BUILD SUCCESSFUL in 5s
+1 actionable task: 1 executed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
