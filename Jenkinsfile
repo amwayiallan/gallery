@@ -46,7 +46,7 @@ pipeline {
                 always {
                     echo 'Slack Notification'
                     slackSend(
-                        channel: '#allan-ip1',
+                        channel: '#personal-project',
                         color: 'good',
                         message: "*${currentBuild.currentResult}:* \n Job: ${env.JOB_NAME} \n Build: ${env.BUILD_NUMBER} \n More info at: ${env.BUILD_URL}"
                     )
